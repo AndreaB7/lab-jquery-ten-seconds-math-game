@@ -5,13 +5,33 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>10 seconds math game</title>
 
     <!--  Added Libraries -->
+    <script type="text/javascript" src="js/tenSecondsMath.js"></script>
+    <script type="text/javascript" src="js/application.js"></script>
 
     <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
   </head>
   <body>
+    <h1>Ten seconds Math Game</h1>
+    <main>
+      <div class="game-options">
+        <h2>Game Options</h2>
+        <form>
+          <label for="upperLimit">Number Limit: </label>
+          <input type="text" name="upperLimit" value="10"><br>
+          <input type="checkbox" value="sum" name="operation[]">Sum<br>
+          <input type="checkbox" value="substraction" name="operation[]">substraction<br>
+          <input type="checkbox" value="multiplication" name="operation[]">multiplication<br>
+          <input type="checkbox" value="division" name="operation[]">division<br>
 
+          <button type="button" name="button">Start Game</button>
+        </form>
+      </div>
+    </main>
 
     <!-- Custom JavaScript -->
 
